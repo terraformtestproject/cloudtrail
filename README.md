@@ -17,6 +17,10 @@ This project is designed to:
   * trail bucket protected from public access
   * s3 access logged to access logging s3 bucket
   * integration with cloudwatch
+* Configure 3 alarms
+  * root account usage
+  * login without mfa
+  * unauthorised api call
 * Python script to remove the default networking for a new account
 
 
