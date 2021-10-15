@@ -46,10 +46,12 @@ To run this project:
 * Run terraform apply in these directories (in this order):
 ```
 $ cd terraform_state_bucket
+$ terraform init
 $ terraform validate
 $ terraform plan
 $ terraform apply
 $ cd cloudtrail_cloudwatch_setup
+$ terraform init
 $ terraform validate
 $ terraform plan
 $ terraform apply
